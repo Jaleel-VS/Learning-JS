@@ -1,3 +1,10 @@
-let name = "Jaleel van Staden"
+let firstName = "Jaleel"
+let lastName = "van Staden"
+let fullName = firstName + " " + lastName
 
-console.log(name)
+
+let city = "Cape Town"
+let country = "South Africa"
+let location = city + ", " + country
+
+console.log("Hi I'm " + fullName + ". I am from " + location)
