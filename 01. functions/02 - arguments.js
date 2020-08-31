@@ -18,8 +18,9 @@ getScoreText("Steve", 50)
 
 // challenge
 let tipCalc = function(total, tipPercent = 20) {
-    return total * (tipPercent / 100)
+    let tip = total * (tipPercent / 100)
+    return `A ${tipPercent}% tip on $${total} would be $${tip}`
 }
 
-let tip = tipCalc(100)
+let tip = tipCalc(40, 25)
 console.log(tip)
